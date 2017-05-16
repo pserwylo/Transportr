@@ -452,6 +452,12 @@ public class TransportNetworks {
 		// Australia
 		region = region(R.string.np_region_australia, "\uD83C\uDDE6\uD83C\uDDFA");
 
+		list.add(new TransportNetwork(context, NetworkId.AUSTRALIA)
+				.setName(getString(R.string.np_name_australia))
+				.setDescription(getString(R.string.np_desc_australia), getString(R.string.np_desc_australia_networks))
+				.setRegion(region)
+		);
+
 		list.add(new TransportNetwork(context, NetworkId.SYDNEY)
 				.setName(getString(R.string.np_name_sydney))
 				.setDescription(getString(R.string.np_desc_sydney))

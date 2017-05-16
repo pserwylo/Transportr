@@ -101,6 +101,7 @@ public final class NetworkProviderFactory
 	private static Reference<RtaChicagoProvider> rtaChicagoProviderRef;
 	private static Reference<OregonProvider> oregonProviderRef;
 	private static Reference<NegentweeProvider> negentweeProviderRef;
+	private static Reference<AustraliaProvider> australiaProviderRef;
 
 	private static final HttpUrl NAVITIA_API = HttpUrl.parse("https://api.navitia.io/v1/");
 	private static final String NAVITIA = "87a37b95-913a-4cb4-ba52-eb0bc0b304ca";
@@ -1050,6 +1051,19 @@ public final class NetworkProviderFactory
 
 			final NegentweeProvider provider = new NegentweeProvider(lang);
 			negentweeProviderRef = new SoftReference<>(provider);
+			return provider;
+		}
+		else if (networkId.equals(NetworkId.AUSTRALIA))
+		{
+			if (australiaProviderRef != null)
+			{
+				final AustraliaProvider provider = australiaProviderRef.get();
+				if (provider != null)
+					return provider;
+			}
+
+			final AustraliaProvider provider = new AustraliaProvider(NAVITIA);
+			australiaProviderRef = new SoftReference<>(provider);
 			return provider;
 		}
 		else
