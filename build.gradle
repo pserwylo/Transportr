@@ -64,15 +64,15 @@ dependencyVerification {
 			'com.android.support:preference-v7:b37d8193c65cf8eb3c4ba9cbfc6d5c96042177901622717fb089290bef784a58',
 			'com.mikepenz:materialize:942ccf5e2aa1a46803aa884e8dc7bbaf2a9e8e9996a0cf92e3fe2f44a8592ba4',
 			'com.mikepenz:iconics-core:fdaec9164d5dccd213e1e80610b29dbd33a6e36ccd56ca3e8d4e4a802ac962d5',
-			'com.squareup.okhttp3:okhttp:eecd834b09d12c3cd568b811522b97012619f7f00378c3c719a1957fac6458ef',
-			'com.squareup.okhttp3:logging-interceptor:2f77bb4b1b2ecf1c330a54295b0b112f65a56d2c16b7937303ad601b1de18fde',
+			'com.squareup.okhttp3:logging-interceptor:88d04693ab3109b549149b38abf96530bf6ee97f38c0dc72aa73560ef30d953d',
+			'com.squareup.okhttp3:okhttp:19e1db51787716ff0046fa19e408fb34ed32a6274baa0c07475bf724b4eb6800',
 			'com.google.guava:guava:36a666e3b71ae7f0f0dca23654b67e086e6c93d192f60ba5dfd5519db6c288c8',
 			'org.slf4j:slf4j-api:1d5aeb6bd98b0fdd151269eae941c05f6468a791ea0f1e68d8e7fe518af3e7df',
 			'com.google.code.findbugs:jsr305:bec0b24dcb23f9670172724826584802b80ae6cbdaba03bdebdef9327b962f6a',
 			'com.android.support:support-media-compat:cbed07d07e0e84fdb4b75712f5fd946229a8af155933c9a92e41db64d00791e0',
 			'com.android.support:support-core-utils:32fac02eb2c20a77fa3e3bc3ede62392a19613f72b8f8e10f5dfa84bb4c89ea1',
 			'com.android.support:support-fragment:541d6393c1e024453aca2a14f31bea0c7270ff4e2a02783f3528aa426367444d',
-			'com.squareup.okio:okio:8c5436cadfab36bbd97db5f5c43b7bfdb5bf2f5f894ec8709b1929f14bdd010c',
+			'com.squareup.okio:okio:734269c3ebc5090e3b23566db558f421f0b4027277c79ad5d176b8ec168bb850',
 			'com.mikepenz:fastadapter:bee864e3dcb54b6c6126335f58b92ecb17a4b70b58a270279c91e9c96ac1b963',
 	]
 }
